@@ -64,8 +64,8 @@ sipgate.io offers webhooks for the following events:
 - **dtmf:** is triggered when a user makes an entry of digits during a call
 
 **Note:** Per default sipgate.io only sends webhooks for **newCall** events.
-To subscribe to other event types you can reply to webhooks with XML responses.
-These responses include the event type you would like to receive webhooks for as well as the URL they should be directed to.
+To subscribe to other event types you can reply to the **newCall** event with an XML response.
+This response includes the event types you would like to receive webhooks for as well as the respective URL they should be directed to.
 You can find more information about the XML response here:
 https://developer.sipgate.io/push-api/api-reference/#the-xml-response
 
