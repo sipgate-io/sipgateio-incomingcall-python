@@ -14,8 +14,8 @@ setup(
     version='0.1.0',
     description='A demonstration of how to receive and process webhooks from sipgate.io',
     long_description=readme,
-    author='sipgate',
-    author_email='',
+    author='sipgate io Team',
+    author_email='io-team@sipgate.de',
     url='https://github.com/sipgate-io/sipgateio-incomingcall-python',
     license=license,
     packages=find_packages(exclude=())
