@@ -1,1 +1,2 @@
 runtime: python310
+entrypoint: gunicorn incoming_call.server:app
